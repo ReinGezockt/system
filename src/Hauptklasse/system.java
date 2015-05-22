@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class system extends JavaPlugin {
 
     @Override
-    public void onenable (){
+    public void onEnable (){
 
         System.out.println(Daten.präfix + " Wurde erfolgreich Geladen!");
 
@@ -18,6 +18,13 @@ public class system extends JavaPlugin {
 
 
     }
+    @Override
+    public void oneDisable() {
 
+        System.out.println(Daten.präfix + " Konnte nicht geladen werden!");
+
+
+
+    }
 
 }
