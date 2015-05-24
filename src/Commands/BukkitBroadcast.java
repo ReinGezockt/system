@@ -24,24 +24,20 @@ public class BukkitBroadcast implements CommandExecutor{
         Player p = (Player) sender;
 
         if (cmd.getName().equalsIgnoreCase("Broadcast")) {
+
+
+            if (!(args.length < 1)) {
+                p.sendMessage("§4Zu wenig Argumente!");
+                return true;
+
+            } else if (args.length >= 1) {
+                Bukkit.broadcastMessage(args[1]);
+
+
+            }
+
+
         }
-        if (! (args.length < 1)) {
-            p.sendMessage("§4Zu wenig Argumente!");
-            return true;
-
-        }else if (args.length >= 1) {
-            Bukkit.broadcastMessage(args [1]);
-
-
-
-        }
-
-
-
-
-
-
-
         return false;
     }
     }
