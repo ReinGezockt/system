@@ -15,15 +15,14 @@ public class BukkitBroadcast implements CommandExecutor{
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         return false;
 
+
         if (!(sender instanceof Player)) {
+            System.out.println("Um diesen Command ausführen zu können, musst du ein Spieler sein.");
 
 
 
 
 
-
-
-    }
-}
-
+        }
+     }
     }
