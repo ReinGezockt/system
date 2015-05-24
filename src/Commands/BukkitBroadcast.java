@@ -15,10 +15,15 @@ public class BukkitBroadcast implements CommandExecutor{
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         return false;
 
-        Player p = (Player) sender;
+        if (!(sender instanceof Player)) {
+
+
+
 
 
 
 
     }
 }
+
+    }
