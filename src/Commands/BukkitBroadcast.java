@@ -18,6 +18,7 @@ public class BukkitBroadcast implements CommandExecutor{
 
         if (!(sender instanceof Player)) {
             System.out.println("Um diesen Command ausführen zu können, musst du ein Spieler sein.");
+            return true;
 
 
 
