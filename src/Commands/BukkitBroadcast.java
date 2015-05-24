@@ -23,11 +23,8 @@ public class BukkitBroadcast implements CommandExecutor{
         Player p = (Player) sender;
 
         if (cmd.getName().equalsIgnoreCase("Broadcast")) {
-
-
-
-
         }
+        if (args.length == )
 
 
 

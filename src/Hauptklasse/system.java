@@ -15,11 +15,6 @@ public class system extends JavaPlugin {
         this.getCommand("Broadcast").setExecutor(new BukkitBroadcast());
 
 
-
-
-
-
-
         System.out.println(Daten.präfix + " Wurde erfolgreich Geladen!");
 
 
