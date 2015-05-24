@@ -1,5 +1,6 @@
 package Commands;
 
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -27,6 +28,10 @@ public class BukkitBroadcast implements CommandExecutor{
         if (! (args.length < 1)) {
             p.sendMessage("§4Zu wenig Argumente!");
             return true;
+
+        }else if (args.length >= 1) {
+            Bukkit.broadcastMessage(args [1]);
+
 
 
         }
