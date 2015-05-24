@@ -1,5 +1,7 @@
 package Hauptklasse;
 
+import org.apache.logging.log4j.core.config.plugins.PluginManager;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -10,7 +12,16 @@ public class system extends JavaPlugin {
     @Override
     public void onEnable (){
 
+
+
+
+
+
+
         System.out.println(Daten.präfix + " Wurde erfolgreich Geladen!");
+
+
+
 
 
 
@@ -19,7 +30,7 @@ public class system extends JavaPlugin {
 
     }
     @Override
-    public void oneDisable() {
+    public void onDisable() {
 
         System.out.println(Daten.präfix + " Konnte nicht geladen werden!");
 
