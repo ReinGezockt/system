@@ -1,5 +1,6 @@
 package Hauptklasse;
 
+import Commands.BukkitBroadcast;
 import org.apache.logging.log4j.core.config.plugins.PluginManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -11,6 +12,7 @@ public class system extends JavaPlugin {
 
     @Override
     public void onEnable (){
+        this.getCommand("Broadcast").setExecutor(new BukkitBroadcast());
 
 
 
