@@ -14,7 +14,7 @@ public class BukkitBroadcast implements CommandExecutor{
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        return false;
+
 
 
         if (!(sender instanceof Player)) {
@@ -42,6 +42,6 @@ public class BukkitBroadcast implements CommandExecutor{
 
 
 
-
+        return false;
     }
     }
