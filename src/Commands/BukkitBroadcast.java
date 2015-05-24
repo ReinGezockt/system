@@ -24,7 +24,11 @@ public class BukkitBroadcast implements CommandExecutor{
 
         if (cmd.getName().equalsIgnoreCase("Broadcast")) {
         }
-        if (! (args.length == 1))
+        if (! (args.length < 1)) {
+
+        }
+
+
 
 
 
