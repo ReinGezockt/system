@@ -15,7 +15,7 @@ public class system extends JavaPlugin {
         this.getCommand("Broadcast").setExecutor(new BukkitBroadcast());
 
 
-        System.out.println(Daten.präfix + " Wurde erfolgreich Geladen!");
+        System.out.println(Daten.prefix + " Wurde erfolgreich Geladen!");
 
 
 
@@ -29,7 +29,7 @@ public class system extends JavaPlugin {
     @Override
     public void onDisable() {
 
-        System.out.println(Daten.präfix + " Konnte nicht geladen werden!");
+        System.out.println(Daten.prefix + " Konnte nicht geladen werden!");
 
 
 

@@ -7,7 +7,7 @@ package Hauptklasse;
  */
 public class Daten {
 
-    public static String präfix = "";
+    public static String prefix = "system";
 
 
 

@@ -1,0 +1,10 @@
+name: system
+version: 0.1
+author: ReinGezockt
+main: Hauptklasse.system
+
+commands:
+   Broadcast:
+     description: Broadcast your Message!
+     usage: </broadcast>
+
